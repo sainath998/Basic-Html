@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>My first web page</title>
+    <style>
+      img {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 10px;
+      }
+
+      .username {
+        font-weight: bold;
+      }
+      /* we can also use .username only applies to all for class as username */
+    </style>
+  </head>
+  <body>
+    <img src="images/im.jpg" alt="image was having some error" />
+    <p class="username">@random image</p>
+    <!-- <p>@random image</p>  class -> for clasification -->
+    <p>I love to teach html</p>
+  </body>
+</html>
+
+---------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--this meta element is  for defining character set(cimp only understand 0 and 1 we map char by using ascii value) we uuse utf 8 it rep almost all characters in world -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- this meta is for  vewport area of rectangular screen with initial width and zoom part-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- created manaually -->
+    <meta name="keywords" content="HTML,CSS" />
+    <!-- created manaually -->
+    <meta name="description" content="..." />
+    <!-- the above one is which we used to see content  -->
+    <title>Document</title>
+    <style>
+      em {
+        color: red;
+        font-size: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- emphasise content in file  -->
+    I love to teach you <em>html</em>
+    <!-- ctrlshift_+p -> wrap the certain content -->
+    <!-- instead of em we can use <i> for italic -->
+    <!-- and also a strong can be use -->
+    <!-- <b> for bold -->
+
+    <!--we have 6 headinng elements more imp -> less imp  -->
+
+    <!-- use similar headings for elements having equal importance -->
+    <h1>heading 1</h1>
+    <h2>html</h2>
+    <p>html tutorial</p>
+    <h2>css</h2>
+    <p>css tutorial</p>
+
+    <h3>code and exircise</h3>
+
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+  </body>
+</html>
+
+---------------------------------------------
+
+<!DOCTYPE html>
+<!-- not displayingn HTML -->
+<!-- <p>I love to teach HTML!</p> -->
+
+<!-- we have an entity to display left hand side that is lt -->
+<p>i love to teach &lt;HTML&gt;!</p>
+
+<!-- now copyright symbol -->
+<!-- see character entities in chrome -->
+
+<p>i love to teach &lt;HTML&gt;! &copy;</p>
+
+<!-- lorem then no of words u want -->
+
+<!-- &nbsp; to make them always come on same line(no break space) -->
+<body>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ea impedit,
+  cupiditate culpa voluptatum, maximetempore quia saepe consequatur ab,
+  blanditiis ut! Dicta a itaque aperiam labore provident? Minima maiores illum
+  rem placeat consectetur delectus nemo quas dolorum ipsum, deleniti autem
+  omnis&nbsp;accusantium veritatis neque pariatur provident sunt quis quidem?
+</body>
+
+---------------------------------------------
+<!DOCTYPE html>
+
+<!-- hyperlink -->
+<!-- to create linkes we use anlers <a -->
+
+<!-- we can use relative or absolute urls  here we areusing relative-->
+<body>
+  <a href="company/about.html">About me .</a>
+  <!-- <img src="images/im.jpg" alt="no image found" /> -->
+  <a href="/images/im.jpg" download="">my image</a>
+
+  <a href="#section_css">css</a>
+  <!-- target = "_blank"  for openign google in new tab-->
+  <a href="https://google.com" target="_blank">google</a>
+  <!-- for emails -->
+  <a href="mailto:ab@gmail.com">my_gmail</a>
+
+  <h2>HTML</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui totam
+    perspiciatis dignissimos vitae eius! Ad facilis corporis consequuntur
+    perferendis, consequatur labore neque officiis praesentium quo nisi unde
+  </p>
+
+  <h2 id="section_css">CSS</h2>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam enim</p>
+  <a href="#">jump to top</a>
+</body>
+
+<!-- link and hyper link -->
+<!-- link is just an adress  or url or loation of target page-->
+<!-- hyper link is element to click on to navigate to the target page-->
+
+---------------------------------------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      img {
+        width: 200px;
+        height: 200px;
+        /* cover all the box */
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/images/im.jpg" alt="nice flowers here" />
+  </body>
+</html>
+
+-----------------about me ---------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- .. for going one up -->
+    <!-- or we can start from root of our wesite using / at start -->
+    <a href="../index.html">HOME PAGE</a>
+    <!-- absolute is   -->
+    <!-- <a href="/index.html">HOME PAGE</a> -->
+  </body>
+</html>
